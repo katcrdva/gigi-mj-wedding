@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gillan &amp; Merry Jane — November 28, 2026</title>
+<meta name="description" content="Join Gillan &amp; Merry Jane as they celebrate their wedding on November 28, 2026.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+
+<!-- ============ curtain opening ============ -->
+<div id="curtain-screen">
+  <div class="curtain-valance"></div>
+  <div class="curtain-panel left"></div>
+  <div class="curtain-panel right"></div>
+  <div class="curtain-center">
+    <img class="monogram-img" src="images/initials.jpg" alt="Gillan &amp; Merry Jane monogram">
+    <h1 class="names">Gillan &amp; Merry Jane</h1>
+    <p class="date">November 28, 2026</p>
+    <button class="curtain-tap" id="open-invitation">Tap to open the invitation</button>
+  </div>
+</div>
+
+<!-- ============ navigation ============ -->
+<nav id="site-nav">
+  <button class="music-toggle" id="music-toggle" aria-label="Toggle music" title="Toggle music">♪</button>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Open menu"><span></span></button>
+</nav>
+<div class="nav-menu" id="nav-menu">
+  <a href="#invited" data-nav>Home</a>
+  <a href="#story" data-nav>Our Story</a>
+  <a href="#details" data-nav>Details</a>
+  <a href="#celebration" data-nav>Program</a>
+  <a href="#party" data-nav>Entourage</a>
+  <a href="#gallery" data-nav>Gallery</a>
+  <a href="#rsvp" data-nav>RSVP</a>
+  <a href="#faq" data-nav>FAQ</a>
+</div>
+
+<audio id="bg-music" loop preload="none">
+  <source src="music/wedding-piano.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ============ cordially invited ============ -->
+<section id="invited" class="section section--ivory">
+  <div class="invite-card reveal">
+    <p class="kicker">You are cordially invited to celebrate the wedding of</p>
+    <h1 class="names">Gillan</h1>
+    <span class="amp">&amp;</span>
+    <h1 class="names">Merry Jane</h1>
+    <p class="msg">We would like to invite you to celebrate with us the most special day of our lives. It would be an honor to have you present at this important moment.</p>
+  </div>
+</section>
+
+<!-- ============ save the date + countdown ============ -->
+<section id="save-the-date" class="section section--dark">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Save the Date</span>
+    <h2 class="heading-md">Save the Date</h2>
+
+    <div class="date-display">11.28.2026</div>
+
+    <div class="timer" id="timer">
+      <div class="unit"><div class="num" id="cd-days">00</div><div class="label">Days</div></div>
+      <div class="unit"><div class="num" id="cd-hours">00</div><div class="label">Hours</div></div>
+      <div class="unit"><div class="num" id="cd-mins">00</div><div class="label">Minutes</div></div>
+      <div class="unit"><div class="num" id="cd-secs">00</div><div class="label">Seconds</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ meet the couple ============ -->
+<section id="couple" class="section section--ivory">
+  <div class="wrap">
+    <div class="split reveal">
+      <div class="split-media">
+        <div class="photo-frame">
+          <img src="images/couple.jpg" alt="Gillan and Merry Jane together">
+        </div>
+      </div>
+      <div class="split-text">
+        <span class="eyebrow">Meet the Couple</span>
+        <h2 class="heading-md">Gillan &amp; Merry Jane</h2>
+        <hr class="divider divider--left">
+        <p class="lede">Two hearts, one beautiful journey, and a lifetime still waiting to unfold.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ our story ============ -->
+<section id="story" class="section section--dark">
+  <div class="wrap">
+    <div class="center reveal" style="margin-bottom:2.4rem">
+      <span class="eyebrow">Our Story</span>
+      <h2 class="heading-md">Our Story</h2>
+    </div>
+
+    <div class="story-layout reveal">
+      <div class="story-text">
+        <p>Their beautiful story began in 2018, when Gillan joined a shipping company as an apprentice and met Merry Jane, who was also employed there. What began as a casual encounter gradually developed into a friendship. Talking, laughing, and sharing little moments, they started to get to know one another, which brought their hearts closer and slowly turned into a love that neither of them expected.</p>
+        <p>On October 20, 2019, they officially became a couple—and began a journey they would never forget. Through the years, they shared countless happy memories and faced their fair share of challenges. Even when distance kept them apart, they remained close at heart and continued to choose each other, day after day.</p>
+        <p>In 2025, their love took another beautiful step as they got engaged. And now, in 2026, they finally stand together, ready to begin their greatest journey yet—not just as two people in love, but as one family, one future, and one forever.</p>
+        <p>From the moment they met in 2018 to this beautiful day, their love has grown through every season. Today, Gillan and Merry Jane are not just celebrating the love that brought them here—they are celebrating the forever they are choosing together. ❤️</p>
+      </div>
+
+      <div class="story-slideshow" id="story-slideshow">
+        <img class="active" src="images/story-1.jpg" alt="Gillan and Merry Jane, story photo 1">
+        <img src="images/story-2.jpg" alt="Gillan and Merry Jane, story photo 2">
+        <img src="images/story-3.jpg" alt="Gillan and Merry Jane, story photo 3">
+        <img src="images/story-4.jpg" alt="Gillan and Merry Jane, story photo 4">
+        <img src="images/story-5.jpg" alt="Gillan and Merry Jane, story photo 5">
+        <img src="images/story-6.jpg" alt="Gillan and Merry Jane, story photo 6">
+        <img src="images/story-7.jpg" alt="Gillan and Merry Jane, story photo 7">
+        <img src="images/story-8.jpg" alt="Gillan and Merry Jane, story photo 8">
+        <img src="images/story-9.jpg" alt="Gillan and Merry Jane, story photo 9">
+        <img src="images/story-10.jpg" alt="Gillan and Merry Jane, story photo 10">
+        <img src="images/story-11.jpg" alt="Gillan and Merry Jane, story photo 11">
+        <img src="images/story-12.jpg" alt="Gillan and Merry Jane, story photo 12">
+        <img src="images/story-13.jpg" alt="Gillan and Merry Jane, story photo 13">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ wedding details ============ -->
+<section id="details" class="section section--ivory">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Wedding Details</span>
+    <h2 class="heading-md">The Celebration</h2>
+  </div>
+  <div class="wrap">
+    <div class="venues">
+      <div class="venue-card reveal">
+        <div class="venue-photo"><img src="images/church.jpg" alt="Archdiocesan Shrine of St. Therese of the Child Jesus"></div>
+        <div class="venue-body">
+          <div class="time">10:00 AM</div>
+          <div class="role">Ceremony</div>
+          <div class="venue-name">Archdiocesan Shrine of<br>St. Therese of the Child Jesus</div>
+          <address>Lahug, Cebu City</address>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Archdiocesan+Shrine+of+St.+Therese+of+the+Child+Jesus+Lahug+Cebu+City" target="_blank" rel="noopener">View Map</a>
+        </div>
+      </div>
+      <div class="venue-card reveal">
+        <div class="venue-photo"><img src="images/hotel.jpg" alt="Bayfront Capitol reception venue"></div>
+        <div class="venue-body">
+          <div class="time">12:00–4:00 PM</div>
+          <div class="role">Reception</div>
+          <div class="venue-name">Bayfront – Capitol</div>
+          <address>M.P. Yap cor. F. Ramos Ext. St., Capitol Site,<br>Cebu City, Philippines 6000</address>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Bayfront+Capitol+Cebu+City" target="_blank" rel="noopener">View Map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ attire guide ============ -->
+<section id="attire" class="section section--wine">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Attire Guide</span>
+    <h2 class="heading-md">Dress the Part</h2>
+    <p class="max-prose center-col">We kindly invite our guests to dress in our chosen wedding color palette and dress elegantly and formally to celebrate this special day with us. Your thoughtful choice of attire will help create a beautifully coordinated celebration.</p>
+
+    <div class="attire-photo">
+      <img src="images/style.jpg" alt="Suggested ladies' and gentlemen's attire in the wedding color palette">
+    </div>
+
+    <div class="palette">
+      <div class="swatch"><div class="dot" style="background:#360810"></div><div class="label">Deep Velvet</div><div class="hex">#360810</div></div>
+      <div class="swatch"><div class="dot" style="background:#4A0E17"></div><div class="label">Burgundy</div><div class="hex">#4A0E17</div></div>
+      <div class="swatch"><div class="dot" style="background:#5A1829"></div><div class="label">Rich Wine</div><div class="hex">#5A1829</div></div>
+      <div class="swatch"><div class="dot" style="background:#C88EA7"></div><div class="label">Dusty Rose</div><div class="hex">#C88EA7</div></div>
+      <div class="swatch"><div class="dot" style="background:#E3B5C4"></div><div class="label">Blush</div><div class="hex">#E3B5C4</div></div>
+    </div>
+
+    <span class="avoid-white">Please avoid wearing white.</span>
+  </div>
+</section>
+
+<!-- ============ gift guide ============ -->
+<section id="gift" class="section section--ivory">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Gift Guide</span>
+    <h2 class="heading-md">Gift Guide</h2>
+    <p class="max-prose center-col gift-msg">Your presence is the greatest gift we could ask for. If you wish to bless us with a monetary gift, it would be lovingly appreciated as we begin our life together.</p>
+  </div>
+</section>
+
+<!-- ============ reception program (single luxury card) ============ -->
+<section id="celebration" class="section section--dark">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Program</span>
+    <h2 class="heading-md">Program</h2>
+  </div>
+  <div class="wrap">
+    <div class="luxury-card reveal">
+      <div class="program-part">
+        <h3>Part I — The Celebration Begins</h3>
+        <ul class="program-list">
+          <li><span class="n">01</span>Acknowledgement of Guests</li>
+          <li><span class="n">02</span>Pica-Pica</li>
+          <li><span class="n">03</span>Photo Booth</li>
+          <li><span class="n">04</span>Host Introduction &amp; Welcome Remarks</li>
+          <li><span class="n">05</span>Entourage Entrance</li>
+        </ul>
+        <ul class="program-sub">
+          <li>Parents of the Groom</li>
+          <li>Parents of the Bride</li>
+          <li>Principal Sponsors</li>
+          <li>Bride Squad</li>
+          <li>Groom Squad</li>
+        </ul>
+        <ul class="program-list" style="margin-top:1rem">
+          <li><span class="n">06</span>Couple's Grand Entrance</li>
+          <li><span class="n">07</span>First Dance</li>
+          <li><span class="n">08</span>Money Dance</li>
+          <li><span class="n">09</span>Cake Slicing</li>
+          <li><span class="n">10</span>Wine Toasting — Best Men &amp; Maid of Honor</li>
+          <li><span class="n">11</span>Prayer for the Food</li>
+          <li><span class="n">12</span>Dinner Time</li>
+        </ul>
+      </div>
+      <div class="program-part">
+        <h3>Part II — Together in Celebration</h3>
+        <ul class="program-list">
+          <li><span class="n">01</span>Couple's Photo Booth Time</li>
+          <li><span class="n">02</span>Distribution of Giveaways</li>
+          <li><span class="n">03</span>Messages — Parents &amp; Principal Sponsors</li>
+          <li><span class="n">04</span>Gift Opening</li>
+          <li><span class="n">05</span>Messages — MHO, Friends, Relatives &amp; Workmates</li>
+          <li><span class="n">06</span>Games — Male &amp; Female</li>
+          <li><span class="n">07</span>Garter Retrieval</li>
+          <li class="optional"><span class="n">08</span>SDE Presentation <span class="tag">if applicable</span></li>
+          <li><span class="n">09</span>Couple's Gratitude Message</li>
+          <li><span class="n">10</span>Host Closing Remarks</li>
+          <li><span class="n">11</span>Suppliers Photo Opportunity</li>
+          <li><span class="n">12</span>End of the Program</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ wedding party (single luxury card) ============ -->
+<section id="party" class="section section--ivory">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Entourage</span>
+    <h2 class="heading-md">Entourage</h2>
+  </div>
+  <div class="wrap">
+    <div class="luxury-card reveal">
+
+      <div class="entourage-block">
+        <h3>Bride</h3>
+        <div class="names">Merry Jane &ldquo;MJ&rdquo; Avergonzado</div>
+        <div class="role-label">Parents of the Bride</div>
+        <div class="names">Verolo Avergonzado<br>Arlen Avergonzado</div>
+      </div>
+
+      <hr class="card-rule">
+
+      <div class="entourage-block">
+        <h3>Groom</h3>
+        <div class="names">Gillan &ldquo;Gigi&rdquo; Duran</div>
+        <div class="role-label">Parents of the Groom</div>
+        <div class="names">Bhebie Duran<br>Noli Noel Duran</div>
+      </div>
+
+      <hr class="card-rule">
+
+      <div class="entourage-block">
+        <div class="role-label">Best Man</div>
+        <div class="names">Kemp Duran</div>
+        <div class="role-label">Maid of Honor</div>
+        <div class="names">Maria Vanissa Avergonzado</div>
+        <div class="role-label">Groomsmen</div>
+        <div class="names">Rainer Yu · Jovan Gorre · Ricardo Sauro<br>Kenneth Yancy · Devilleres · Clyde Duran</div>
+        <div class="role-label">Bridesmaids</div>
+        <div class="names">Joyce Avergonzado · Kim Avergonzado<br>Breth Pollin Duran · Melgie Devido · Phoebe Jen Pan</div>
+        <div class="role-label">Ring Bearer</div>
+        <div class="names">Jhon Christian Medillo</div>
+        <div class="role-label">Coin Bearer</div>
+        <div class="names">Kenth Neil Aguhar</div>
+        <div class="role-label">Bible Bearer</div>
+        <div class="names">Jexer Enz Duran</div>
+        <div class="role-label">Flower Girls</div>
+        <div class="names">Alexa Faith Medillo · Cassy Blanche Enriquez · Jillian Chloe Tizon</div>
+      </div>
+
+      <hr class="card-rule">
+
+      <div class="entourage-block">
+        <h3>Principal Sponsors</h3>
+        <ul class="pair-list">
+          <li>Mr. Jo Anthony Duran &amp; Mrs. Lira Duran</li>
+          <li>Mr. Cris Duran &amp; Mrs. Melanie Duran</li>
+          <li>Mr. Leo Pareja &amp; Mrs. Dorothy Pareja</li>
+          <li>Mr. Ranilo Artiaga &amp; Mrs. Florie Lynn Artiaga</li>
+          <li>Mr. Pol Padasas &amp; Mrs. Jessie Padasas</li>
+          <li>Mr. Renato Costelo &amp; Mrs. Maria Magdalena Costelo</li>
+        </ul>
+      </div>
+
+      <hr class="card-rule">
+
+      <div class="entourage-block">
+        <div class="role-label">Candle Sponsors</div>
+        <div class="names">Vannesa Comings &amp; Jerome Comings</div>
+        <div class="role-label">Cord Sponsors</div>
+        <div class="names">Mary May Amad &amp; Sherwin Amad</div>
+        <div class="role-label">Veil Sponsors</div>
+        <div class="names">Kevin Medillo &amp; Beberlyjane Medillo</div>
+      </div>
+
+      <hr class="card-rule">
+
+      <div class="entourage-block">
+        <div class="role-label">Flowers &amp; Candles</div>
+        <div class="names">Clark Dave Louie Duran &amp; Glace Duran</div>
+        <div class="role-label">Fruits</div>
+        <div class="names">Kurt Occo &amp; Katrina Cordova</div>
+        <div class="role-label">Bread &amp; Wine</div>
+        <div class="names">Jonnel Villarubia &amp; Ella Cate Marei Tero</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ gallery ============ -->
+<section id="gallery" class="section section--dark">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Moments We Cherish</span>
+    <h2 class="heading-md">Moments We Cherish</h2>
+  </div>
+  <div class="wrap">
+    <div class="gallery reveal">
+      <figure><img src="images/gallery-1.jpg" alt="Gillan and Merry Jane, photo 1"></figure>
+      <figure><img src="images/gallery-2.jpg" alt="Gillan and Merry Jane, photo 2"></figure>
+      <figure><img src="images/gallery-3.jpg" alt="Gillan and Merry Jane, photo 3"></figure>
+      <figure><img src="images/gallery-4.jpg" alt="Gillan and Merry Jane, photo 4"></figure>
+      <figure><img src="images/gallery-5.jpg" alt="Gillan and Merry Jane, photo 5"></figure>
+      <figure><img src="images/gallery-6.jpg" alt="Gillan and Merry Jane, photo 6"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RSVP ============ -->
+<section id="rsvp" class="section section--wine">
+  <div class="wrap center reveal">
+    <span class="eyebrow">RSVP</span>
+    <h2 class="heading-md">Will You Join Us?</h2>
+    <p class="lede">We would be delighted to celebrate this beautiful day with you.</p>
+
+    <form class="rsvp-form" id="rsvp-form">
+      <div class="field">
+        <label for="rsvp-name">Full Name *</label>
+        <input type="text" id="rsvp-name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="rsvp-email">Email (optional)</label>
+        <input type="email" id="rsvp-email" name="email">
+      </div>
+      <div class="field">
+        <label>Will you attend? *</label>
+        <div class="attend-options">
+          <label class="attend-btn" id="attend-yes-label">
+            <input type="radio" name="attendance" value="Yes" required> Yes, I'll be there!
+          </label>
+          <label class="attend-btn" id="attend-no-label">
+            <input type="radio" name="attendance" value="No" required> No, I can't make it
+          </label>
+        </div>
+      </div>
+      <div class="field">
+        <label for="rsvp-message">Message for the Couple (optional)</label>
+        <textarea id="rsvp-message" name="message" rows="4"></textarea>
+      </div>
+      <div class="center">
+        <button type="submit" class="btn btn--solid" id="rsvp-submit">Submit RSVP</button>
+      </div>
+    </form>
+
+    <div class="rsvp-status" id="rsvp-status"></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="section section--ivory">
+  <div class="wrap center reveal">
+    <span class="eyebrow">Good to Know</span>
+    <h2 class="heading-md">Frequently Asked Questions</h2>
+  </div>
+  <div class="wrap">
+    <div class="faq reveal">
+      <div class="faq-item">
+        <button class="faq-q"><span>Can I bring a plus-one?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>We kindly ask that you attend only with the guest or guests named on your invitation. Due to limited seating, additional plus-ones cannot be accommodated.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can I bring my child?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Children who are specifically named on the invitation are warmly welcome. If you need to bring a child who is not listed because you have no one available to care for them, please let us know. We completely understand. Kindly note that they will share the accompanying guest's food and seating arrangement.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can someone else attend in my place?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>To help us keep our seating arrangements organized, we kindly ask that invitations remain exclusive to the guests named on them.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What if my plans change after I RSVP?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>If your plans change, please let Gillan &amp; Merry Jane know as soon as possible so we can update your RSVP.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>I have another question. Who can I contact?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>For anything not covered here, please feel free to reach out to Gillan &amp; Merry Jane directly. We'd be happy to help.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ closing ============ -->
+<section id="closing" class="section section--dark">
+  <div class="wrap reveal">
+    <img class="monogram-img" src="images/initials.jpg" alt="Gillan &amp; Merry Jane monogram">
+    <h2 class="heading-lg">Thank You</h2>
+    <p class="thanks">Thank you for being part of the beginning of our forever.</p>
+    <p class="lede" style="margin-top:1rem">Gillan &amp; Merry Jane</p>
+    <p class="eyebrow" style="margin-top:.4rem">28 · 11 · 2026</p>
+  </div>
+</section>
+
+<!-- ============ footer ============ -->
+<footer>
+  <img class="monogram-img" src="images/initials.jpg" alt="Gillan &amp; Merry Jane monogram">
+  <div class="names">Gillan &amp; Merry Jane</div>
+  <div class="date-tag">28 · 11 · 2026</div>
+  <p class="signoff">With love, Gillan &amp; Merry Jane</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
