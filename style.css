@@ -408,3 +408,23 @@ footer .signoff{ margin-top: 1.4rem; font-family: var(--serif); font-style:itali
 
 .max-prose{ max-width: 60ch; }
 .center-col{ margin-left:auto; margin-right:auto; }
+
+/* ---------- wedding hashtag ---------- */
+.hashtag{
+  font-family: 'Great Vibes', 'Cormorant Garamond', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1.7rem, 5vw + .6rem, 2.8rem);
+  letter-spacing: .02em;
+  line-height: 1.25;
+  color: var(--white);
+  margin: 1.8rem 0 0;
+  overflow-wrap: anywhere;
+}
+.hashtag strong{
+  font-weight: 400;
+  font-size: 1.2em;
+  -webkit-text-stroke: .6px currentColor;
+}
+.section--ivory .hashtag{ color: var(--bg-wine); }
+footer .hashtag{ color: var(--white); text-align: center; margin-top: 1.4rem; }
